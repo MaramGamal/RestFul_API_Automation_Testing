@@ -21,12 +21,12 @@ public class DeleteBooking extends BaseTest {
 
         given()
                 .header("Content-Type", "application/json")
-                .cookie("token",token)  // Replace with valid token
+                .cookie("token",token)
                 .when()
                 .delete("/booking/1")
                 .then()
                 .log().all()
-                .statusCode(201); // Expected status code for successful delete
+                .statusCode(201);
     }
 }
 

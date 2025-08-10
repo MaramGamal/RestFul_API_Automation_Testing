@@ -2,7 +2,21 @@
 <suite name="Simple RESTful Suite">
     <test name="Login Test">
         <classes>
-            <class name="tests.HealthCheck_Tests"/>
+            <class name="tests.CreateToken"/>
+            <class name="tests.CreateBooking_JSON"/>
+            <class name="tests.CreateBooking_URL"/>
+            <class name="tests.CreateBooking_XML"/>
+            <class name="tests.GetBooking"/>
+            <class name="tests.GetBookingIds_Filter_by_date"/>
+            <class name="tests.GetBookingIds_Filter_by_name"/>
+            <class name="tests.GetBookingIds_Query_all_IDs"/>
+            <class name="tests.UpdateBooking_JSON"/>
+            <class name="tests.UpdateBooking_URL"/>
+            <class name="tests.UpdateBooking_XML"/>
+            <class name="tests.PartialUpdateBooking_JSON"/>
+            <class name="tests.PartialUpdateBooking_URL"/>
+            <class name="tests.PartialUpdateBooking_XML"/>
+            <class name="tests.DeleteBooking"/>
         </classes>
     </test>
 </suite>

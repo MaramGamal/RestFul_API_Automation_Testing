@@ -15,7 +15,6 @@ public class PartialUpdateBooking_JSON extends BaseTest {
         String token = TokenGenerator.generateToken();
 
 
-        // JSON Body لتحديث جزئي (هنا نغير firstname و totalprice فقط)
         String partialUpdateBody = """
             {
                 "firstname" : "James",

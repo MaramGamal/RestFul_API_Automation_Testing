@@ -62,7 +62,7 @@ public class CreateToken extends BaseTest {
                 .then()
                 .log().all()
                 .statusCode(200) // بقت 200 بدل 401
-                .body("reason", equalTo("Bad credentials")); // تأكدي من رسالة الخطأ جوا body
+                .body("reason", equalTo("Bad credentials"));
 
         Allure.step("Validate bad credentials error message is returned");
     }
